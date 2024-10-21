@@ -16,7 +16,7 @@ const PaymentForm = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('https://ad94-103-111-224-32.ngrok-free.app/create-invoice', {
+            const response = await axios.post('https://eb6b-103-111-224-32.ngrok-free.app/create-invoice', {
                 amount,
                 currency,
                 email,
